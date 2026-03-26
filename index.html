@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaxOneAcc Consulting — Smart Financial Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- ======================== HEADER ======================== -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a class="logo-link" href="#" onclick="showPage('home'); return false;" aria-label="TaxOneAcc Home">
+      <img src="images/Taxoneacc CONSULTING.svg" alt="TaxOneAcc Consulting" />
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a class="nav-link" onclick="showPage('home')">Home</a>
+      <a class="nav-link" onclick="showPage('about')">About</a>
+      <a class="nav-link" onclick="showPage('services')">Services</a>
+      <a class="nav-link" onclick="showPage('testimonials')">Testimonials</a>
+      <a class="nav-link" onclick="showPage('contact')">Contact</a>
+      <a class="nav-link nav-cta" onclick="showPage('contact')">Book Consultation</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ======================== HOME PAGE ======================== -->
+<div id="page-home" class="page active">
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="swiper hero-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url('images/advisor-9652579_1280.jpg')"></div>
+        <div class="swiper-slide" style="background-image:url('images/job-5382501_1280.jpg')"></div>
+        <div class="swiper-slide" style="background-image:url('images/calculator-385506_1280.jpg')"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">South Africa's Trusted Tax Professionals</div>
+      <h1>Smart Tax Solutions<br />for <em>Every</em> Stage<br />of Your Business</h1>
+      <p class="hero-desc">From compliance and filing to strategic advisory — we handle the numbers so you can focus on what matters.</p>
+      <div class="hero-actions">
+        <a class="btn" onclick="showPage('contact')">Book a Free Consultation</a>
+        <a class="btn btn-outline" onclick="showPage('services')" style="color:#fff;border-color:rgba(255,255,255,0.4);">View Our Services</a>
+      </div>
+    </div>
+    <div class="hero-trust">
+      <div class="trust-item"><span class="trust-num">200+</span><span class="trust-label">Clients Served</span></div>
+      <div class="trust-divider"></div>
+      <div class="trust-item"><span class="trust-num">8</span><span class="trust-label">Core Services</span></div>
+      <div class="trust-divider"></div>
+      <div class="trust-item"><span class="trust-num">100%</span><span class="trust-label">Compliant Filings</span></div>
+    </div>
+  </section>
+
+  <!-- Stats Strip -->
+  <section class="stats-strip">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-num">200+</div>
+          <div class="stat-label">Clients Served</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-1">
+          <div class="stat-num">8</div>
+          <div class="stat-label">Specialist Services</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-2">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Compliance Rate</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-3">
+          <div class="stat-num">5★</div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="why-us">
+    <div class="container">
+      <div class="why-us-header">
+        <div class="section-eyebrow reveal">Why Choose Us</div>
+        <h2 class="section-title reveal reveal-delay-1">Built on Precision.<br />Driven by Results.</h2>
+        <p class="section-subtitle reveal reveal-delay-2" style="margin: 16px auto 0;">We combine deep tax expertise with a personal commitment to every client's financial success.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fas fa-shield-halved"></i></div>
+          <h3>Full Regulatory Compliance</h3>
+          <p>We stay current with SARS regulations and ensure your filings are always accurate, on time, and fully compliant.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-1">
+          <div class="why-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Strategic Financial Insight</h3>
+          <p>Beyond filing — we provide proactive advice that positions your business for growth and minimizes tax exposure.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-2">
+          <div class="why-icon"><i class="fas fa-lock"></i></div>
+          <h3>Complete Confidentiality</h3>
+          <p>Your financial data is handled with the highest standards of security and discretion at every step.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-1">
+          <div class="why-icon"><i class="fas fa-user-tie"></i></div>
+          <h3>Dedicated Consultant</h3>
+          <p>You deal with a consistent, knowledgeable professional who understands your business — not a call centre.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-2">
+          <div class="why-icon"><i class="fas fa-clock"></i></div>
+          <h3>Responsive & Reliable</h3>
+          <p>Deadlines matter. We're proactive, punctual, and always responsive when you need answers fast.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-3">
+          <div class="why-icon"><i class="fas fa-handshake"></i></div>
+          <h3>Long-Term Partnership</h3>
+          <p>We invest in relationships, not just transactions. Our goal is to be your trusted financial partner for years.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Band -->
+  <div class="cta-band">
+    <div class="container">
+      <div class="cta-band-inner">
+        <div>
+          <h2>Ready to take control of your finances?</h2>
+          <p>Book a free, no-obligation consultation and see how we can help you.</p>
+        </div>
+        <a class="btn btn-white" onclick="showPage('contact')">Get Started Today</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img src="images/Taxoneacc CONSULTING.svg" alt="TaxOneAcc Consulting" />
+            <p>Your trusted partner in smart financial and tax solutions for individuals and businesses across South Africa.</p>
+            <div class="footer-social-row">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><span onclick="showServicePage('Corporate')">Corporate & Individual Tax</span></li>
+              <li><span onclick="showServicePage('VAT')">Value Added Tax</span></li>
+              <li><span onclick="showServicePage('Employees')">Employees Tax (PAYE)</span></li>
+              <li><span onclick="showServicePage('Consulting')">Tax Consulting</span></li>
+              <li><span onclick="showServicePage('Dispute')">Tax Dispute & Resolution</span></li>
+              <li><span onclick="showServicePage('CIPC')">CIPC Compliance</span></li>
+              <li><span onclick="showServicePage('Payroll')">Payroll & Payslips</span></li>
+              <li><span onclick="showServicePage('Advisory')">Accounting & Advisory</span></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a onclick="showPage('home')">Home</a></li>
+              <li><a onclick="showPage('about')">About Us</a></li>
+              <li><a onclick="showPage('testimonials')">Testimonials</a></li>
+              <li><a onclick="showPage('contact')">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><span><i class="fas fa-phone" style="color:var(--blue);margin-right:8px;"></i>+27 XX XXX XXXX</span></li>
+              <li><span><i class="fas fa-envelope" style="color:var(--blue);margin-right:8px;"></i>info@taxoneacc.co.za</span></li>
+              <li><span><i class="fas fa-map-marker-alt" style="color:var(--blue);margin-right:8px;"></i>Johannesburg, GP</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2026 TaxOneAcc Consulting. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- /page-home -->
+
+<!-- ======================== ABOUT PAGE ======================== -->
+<div id="page-about" class="page">
+  <div class="about-page">
+
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="page-hero-text">
+          <div class="section-eyebrow">Our Story</div>
+          <h1 class="section-title light">Expertise You Can<br />Trust. Results You<br />Can Count On.</h1>
+          <p>At TaxOneAcc Consulting, we provide reliable, professional tax preparation, bookkeeping, and financial advisory services for individuals and businesses across South Africa. We simplify complexity so you can move with confidence.</p>
+        </div>
+        <div class="page-hero-img">
+          <img src="images/job-5382501_1280.jpg" alt="Our consulting team at work" />
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-section">
+      <div class="container">
+        <div class="section-eyebrow reveal">What Drives Us</div>
+        <h2 class="section-title reveal reveal-delay-1">Purpose &amp; Direction</h2>
+        <div class="mission-grid">
+          <div class="mission-card reveal reveal-delay-1">
+            <h3>Our Mission</h3>
+            <p>To provide dependable, accurate, and transparent financial services that help individuals and small businesses thrive. We simplify tax preparation and financial management while ensuring full regulatory compliance with SARS and all relevant authorities.</p>
+          </div>
+          <div class="mission-card reveal reveal-delay-2">
+            <h3>Our Vision</h3>
+            <p>To be the most trusted financial and tax consulting partner for small and medium businesses in South Africa — known for our precision, integrity, and genuine commitment to every client's long-term financial wellbeing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="values-section">
+      <div class="container">
+        <div class="section-eyebrow reveal" style="color:var(--blue);">What We Stand For</div>
+        <h2 class="section-title light reveal reveal-delay-1">Our Core Values</h2>
+        <div class="values-grid">
+          <div class="value-card reveal reveal-delay-1">
+            <div class="value-icon"><i class="fas fa-scale-balanced"></i></div>
+            <h4>Integrity</h4>
+            <p>We uphold the highest ethical standards in every financial decision and client interaction.</p>
+          </div>
+          <div class="value-card reveal reveal-delay-2">
+            <div class="value-icon"><i class="fas fa-crosshairs"></i></div>
+            <h4>Accuracy</h4>
+            <p>Precision and attention to detail are non-negotiable for reliable, compliant results.</p>
+          </div>
+          <div class="value-card reveal reveal-delay-3">
+            <div class="value-icon"><i class="fas fa-lock"></i></div>
+            <h4>Confidentiality</h4>
+            <p>Client financial information is protected with strict privacy and security practices.</p>
+          </div>
+          <div class="value-card reveal reveal-delay-4">
+            <div class="value-icon"><i class="fas fa-handshake"></i></div>
+            <h4>Client Commitment</h4>
+            <p>Long-term relationships built through transparency, responsiveness, and dependable service.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <div class="container">
+        <div class="section-eyebrow reveal">The People Behind the Numbers</div>
+        <h2 class="section-title reveal reveal-delay-1">Our Team</h2>
+        <p class="section-subtitle reveal reveal-delay-2" style="margin-top:12px;">Dedicated professionals committed to your financial success.</p>
+        <div class="team-grid">
+          <div class="team-card reveal reveal-delay-1">
+            <div class="team-card-img"><i class="fas fa-user-tie"></i></div>
+            <div class="team-card-body">
+              <h4>Lead Tax Consultant</h4>
+              <span>Corporate &amp; Individual Tax</span>
+              <p>Specialist in corporate and individual tax planning, compliance, and SARS submissions with years of hands-on experience.</p>
+            </div>
+          </div>
+          <div class="team-card reveal reveal-delay-2">
+            <div class="team-card-img"><i class="fas fa-calculator"></i></div>
+            <div class="team-card-body">
+              <h4>Senior Accountant</h4>
+              <span>Bookkeeping &amp; Advisory</span>
+              <p>Expert in financial statement preparation, bookkeeping, payroll, and business advisory for small to medium enterprises.</p>
+            </div>
+          </div>
+          <div class="team-card reveal reveal-delay-3">
+            <div class="team-card-img"><i class="fas fa-briefcase"></i></div>
+            <div class="team-card-body">
+              <h4>Compliance Officer</h4>
+              <span>VAT, PAYE &amp; CIPC</span>
+              <p>Handles VAT returns, PAYE submissions, UIF/SDL compliance, and all CIPC secretarial requirements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Band -->
+    <div class="cta-band">
+      <div class="container">
+        <div class="cta-band-inner">
+          <div>
+            <h2>Let's work together.</h2>
+            <p>Discover how TaxOneAcc Consulting can simplify your finances today.</p>
+          </div>
+          <a class="btn btn-white" onclick="showPage('contact')">Book a Consultation</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer (shared) -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <img src="images/Taxoneacc CONSULTING.svg" alt="TaxOneAcc Consulting" />
+              <p>Your trusted partner in smart financial and tax solutions for individuals and businesses across South Africa.</p>
+              <div class="footer-social-row">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer-col">
+              <h4>Services</h4>
+              <ul>
+                <li><span onclick="showServicePage('Corporate')">Corporate &amp; Individual Tax</span></li>
+                <li><span onclick="showServicePage('VAT')">Value Added Tax</span></li>
+                <li><span onclick="showServicePage('Employees')">Employees Tax</span></li>
+                <li><span onclick="showServicePage('Consulting')">Tax Consulting</span></li>
+                <li><span onclick="showServicePage('Dispute')">Tax Dispute &amp; Resolution</span></li>
+                <li><span onclick="showServicePage('CIPC')">CIPC Compliance</span></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a onclick="showPage('home')">Home</a></li>
+                <li><a onclick="showPage('about')">About Us</a></li>
+                <li><a onclick="showPage('testimonials')">Testimonials</a></li>
+                <li><a onclick="showPage('contact')">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact</h4>
+              <ul>
+                <li><span><i class="fas fa-phone" style="color:var(--blue);margin-right:8px;"></i>+27 XX XXX XXXX</span></li>
+                <li><span><i class="fas fa-envelope" style="color:var(--blue);margin-right:8px;"></i>info@taxoneacc.co.za</span></li>
+                <li><span><i class="fas fa-map-marker-alt" style="color:var(--blue);margin-right:8px;"></i>Johannesburg, GP</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-bottom">
+          <p>© 2026 TaxOneAcc Consulting. All rights reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</div><!-- /page-about -->
+
+<!-- ======================== SERVICES PAGE ======================== -->
+<div id="page-services" class="page">
+  <div class="services-page">
+
+    <section class="page-hero" style="padding:72px 0 60px;">
+      <div class="container">
+        <div class="section-eyebrow">What We Do</div>
+        <h1 class="section-title light">Comprehensive Tax &amp;<br />Financial Services</h1>
+        <p style="color:rgba(255,255,255,0.6);margin-top:16px;font-size:0.97rem;max-width:520px;">From tax filing to full financial advisory — we cover every aspect of your financial compliance and growth.</p>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <div class="services-layout">
+        <!-- Sidebar -->
+        <aside class="services-sidebar">
+          <div class="sidebar-card">
+            <h3>Our Services</h3>
+            <ul>
+              <li><a class="service-link active" href="#" data-target="Corporate">Corporate and Individual Tax</a></li>
+              <li><a class="service-link" href="#" data-target="VAT">Value Added Tax</a></li>
+              <li><a class="service-link" href="#" data-target="Employees">Employees Tax (PAYE, UIF &amp; SDL)</a></li>
+              <li><a class="service-link" href="#" data-target="Consulting">Tax Consulting &amp; Compliance</a></li>
+              <li><a class="service-link" href="#" data-target="Dispute">Tax Dispute &amp; Resolution</a></li>
+              <li><a class="service-link" href="#" data-target="CIPC">Secretariat &amp; CIPC Compliance</a></li>
+              <li><a class="service-link" href="#" data-target="Payroll">Payroll &amp; Payslips</a></li>
+              <li><a class="service-link" href="#" data-target="Advisory">Accounting &amp; Advisory</a></li>
+            </ul>
+          </div>
+        </aside>
+
+        <!-- Content -->
+        <div class="services-content">
+
+          <div id="svc-Corporate" class="service-detail active">
+            <div class="service-header">
+              <div class="service-header-icon"><i class="fas fa-building"></i></div>
+              <h2>Corporate and Individual Tax</h2>
+            </div>
+            <div class="service-body">
+              <p>We provide comprehensive tax preparation and filing services for both individuals and businesses. Our focus is on accuracy, compliance, and maximizing allowable deductions while keeping you fully compliant with SARS requirements.</p>
+              <div class="service-features">
+                <div class="feature-item"><i class="fas fa-check"></i><span>Corporate tax planning and filing</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Individual tax preparation</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Deduction optimization</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Compliance checks and reviews</span></div>
+              </div>
+            </div>
+            <div class="faqs">
+              <h3>Frequently Asked Questions</h3>
+              <div class="faq"><button class="faq-question">Do you handle both personal and business taxes?</button><div class="faq-answer">Yes, we manage tax preparation for individuals as well as small to medium-sized businesses, ensuring compliance and accuracy.</div></div>
+              <div class="faq"><button class="faq-question">How do you ensure accuracy in filings?</button><div class="faq-answer">Our team carefully reviews all financial documents and applies current SARS rules to guarantee precise filings and minimize errors.</div></div>
+            </div>
+          </div>
+
+          <div id="svc-VAT" class="service-detail">
+            <div class="service-header">
+              <div class="service-header-icon"><i class="fas fa-percent"></i></div>
+              <h2>Value Added Tax (VAT)</h2>
+            </div>
+            <div class="service-body">
+              <p>We assist businesses with VAT registration, filing, and ongoing compliance, ensuring your VAT processes are accurate and submitted timeously to avoid penalties from SARS.</p>
+              <div class="service-features">
+                <div class="feature-item"><i class="fas fa-check"></i><span>VAT registration guidance</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>VAT return preparation and filing</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Compliance checks and audits</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>VAT reconciliation support</span></div>
+              </div>
+            </div>
+            <div class="faqs">
+              <h3>Frequently Asked Questions</h3>
+              <div class="faq"><button class="faq-question">Do you handle VAT for all business sizes?</button><div class="faq-answer">Yes, we assist small to medium-sized businesses with accurate VAT reporting and compliance with SARS.</div></div>
+              <div class="faq"><button class="faq-question">How often should VAT returns be filed?</button><div class="faq-answer">VAT returns are typically filed monthly or bi-monthly depending on your business size and registration category. We guide you through the full process.</div></div>
+            </div>
+          </div>
+
+          <div id="svc-Employees" class="service-detail">
+            <div class="service-header">
+              <div class="service-header-icon"><i class="fas fa-users"></i></div>
+              <h2>Employees Tax (PAYE, UIF &amp; SDL)</h2>
+            </div>
+            <div class="service-body">
+              <p>We manage all employee tax obligations including Pay-As-You-Earn (PAYE), Unemployment Insurance Fund (UIF), and Skills Development Levy (SDL), ensuring your payroll is always compliant and accurate.</p>
+              <div class="service-features">
+                <div class="feature-item"><i class="fas fa-check"></i><span>PAYE calculations and submissions</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>UIF and SDL compliance</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Monthly EMP201 submissions</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Annual IRP5 and reconciliation</span></div>
+              </div>
+            </div>
+            <div class="faqs">
+              <h3>Frequently Asked Questions</h3>
+              <div class="faq"><button class="faq-question">Do you handle payroll tax for small businesses?</button><div class="faq-answer">Yes, we assist small businesses with all employee tax obligations including PAYE, UIF, and SDL compliance.</div></div>
+              <div class="faq"><button class="faq-question">Can you manage employee tax for remote teams?</button><div class="faq-answer">Absolutely — we ensure compliance for employees regardless of their location or work arrangement.</div></div>
+            </div>
+          </div>
+
+          <div id="svc-Consulting" class="service-detail">
+            <div class="service-header">
+              <div class="service-header-icon"><i class="fas fa-lightbulb"></i></div>
+              <h2>Tax Consulting &amp; Compliance</h2>
+            </div>
+            <div class="service-body">
+              <p>We provide expert tax advisory and compliance consulting to help businesses make informed financial decisions, reduce tax risk, and build long-term financial strategies aligned with their goals.</p>
+              <div class="service-features">
+                <div class="feature-item"><i class="fas fa-check"></i><span>Strategic tax planning</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Compliance assessments</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Risk minimization strategies</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Ongoing regulatory updates</span></div>
+              </div>
+            </div>
+            <div class="faqs">
+              <h3>Frequently Asked Questions</h3>
+              <div class="faq"><button class="faq-question">Can you help with tax planning for my business?</button><div class="faq-answer">Yes, we offer strategic guidance to optimize your tax obligations and improve overall financial outcomes year-round.</div></div>
+              <div class="faq"><button class="faq-question">Do you review compliance regularly?</button><div class="faq-answer">Yes, we perform regular compliance reviews to minimize risks and ensure adherence to the latest tax regulations.</div></div>
+            </div>
+          </div>
+
+          <div id="svc-Dispute" class="service-detail">
+            <div class="service-header">
+              <div class="service-header-icon"><i class="fas fa-gavel"></i></div>
+              <h2>Tax Dispute &amp; Resolution</h2>
+            </div>
+            <div class="service-body">
+              <p>We assist businesses and individuals in resolving tax disputes efficiently and professionally, representing you in communications with SARS and other tax authorities to protect your rights and financial interests.</p>
+              <div class="service-features">
+                <div class="feature-item"><i class="fas fa-check"></i><span>Dispute analysis and strategy</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Negotiations with SARS</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Audit support and representation</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Objections and appeals</span></div>
+              </div>
+            </div>
+            <div class="faqs">
+              <h3>Frequently Asked Questions</h3>
+              <div class="faq"><button class="faq-question">Do you represent clients in SARS audits?</button><div class="faq-answer">Yes, we provide full support and professional representation during SARS audits to ensure your obligations are met and rights protected.</div></div>
+              <div class="faq"><button class="faq-question">Can you help resolve penalties or disputes?</button><div class="faq-answer">Absolutely — we assist in negotiating resolutions, lodging objections, and clarifying tax positions with SARS authorities.</div></div>
+            </div>
+          </div>
+
+          <div id="svc-CIPC" class="service-detail">
+            <div class="service-header">
+              <div class="service-header-icon"><i class="fas fa-file-contract"></i></div>
+              <h2>Secretariat &amp; CIPC Compliance</h2>
+            </div>
+            <div class="service-body">
+              <p>We manage company secretarial requirements and CIPC compliance to keep your business legally registered, up-to-date, and in good standing with all statutory obligations.</p>
+              <div class="service-features">
+                <div class="feature-item"><i class="fas fa-check"></i><span>Company registration support</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Annual return filings</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Director and share amendments</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Statutory document preparation</span></div>
+              </div>
+            </div>
+            <div class="faqs">
+              <h3>Frequently Asked Questions</h3>
+              <div class="faq"><button class="faq-question">Do you handle new company registrations?</button><div class="faq-answer">Yes, we assist with registering new companies and maintaining full compliance with CIPC regulations on an ongoing basis.</div></div>
+              <div class="faq"><button class="faq-question">What secretarial services do you provide?</button><div class="faq-answer">We prepare and submit annual returns, share amendments, resolutions, and all other required statutory documentation.</div></div>
+            </div>
+          </div>
+
+          <div id="svc-Payroll" class="service-detail">
+            <div class="service-header">
+              <div class="service-header-icon"><i class="fas fa-money-check-alt"></i></div>
+              <h2>Payroll &amp; Payslips</h2>
+            </div>
+            <div class="service-body">
+              <p>We manage payroll processing and generate professional payslips accurately and on time, ensuring full compliance with employment legislation and all relevant tax deduction requirements.</p>
+              <div class="service-features">
+                <div class="feature-item"><i class="fas fa-check"></i><span>Monthly payroll processing</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Payslip generation</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Employee tax deductions</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Branded payslip templates</span></div>
+              </div>
+            </div>
+            <div class="faqs">
+              <h3>Frequently Asked Questions</h3>
+              <div class="faq"><button class="faq-question">Do you process payroll for small businesses?</button><div class="faq-answer">Yes, we handle payroll for small businesses of all sizes, ensuring accuracy and full compliance with employment regulations.</div></div>
+              <div class="faq"><button class="faq-question">Can payslips be customized with our branding?</button><div class="faq-answer">Absolutely — we generate professional payslips with your company's branding and custom formatting as needed.</div></div>
+            </div>
+          </div>
+
+          <div id="svc-Advisory" class="service-detail">
+            <div class="service-header">
+              <div class="service-header-icon"><i class="fas fa-chart-pie"></i></div>
+              <h2>Accounting &amp; Advisory</h2>
+            </div>
+            <div class="service-body">
+              <p>We offer comprehensive accounting support and business advisory services to help clients make informed financial decisions, maintain clean books, and improve operational efficiency and profitability.</p>
+              <div class="service-features">
+                <div class="feature-item"><i class="fas fa-check"></i><span>Bookkeeping and financial statements</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Budgeting and forecasting</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Management accounts</span></div>
+                <div class="feature-item"><i class="fas fa-check"></i><span>Business process advisory</span></div>
+              </div>
+            </div>
+            <div class="faqs">
+              <h3>Frequently Asked Questions</h3>
+              <div class="faq"><button class="faq-question">Do you provide financial advisory services?</button><div class="faq-answer">Yes, we offer strategic guidance on budgeting, forecasting, and financial planning tailored to small and medium businesses.</div></div>
+              <div class="faq"><button class="faq-question">Can you help with monthly bookkeeping?</button><div class="faq-answer">Absolutely — we maintain accurate, up-to-date bookkeeping and prepare clear financial statements for your business each period.</div></div>
+            </div>
+          </div>
+
+        </div><!-- /services-content -->
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-band">
+      <div class="container">
+        <div class="cta-band-inner">
+          <div>
+            <h2>Not sure which service you need?</h2>
+            <p>Book a free consultation and we'll point you in the right direction.</p>
+          </div>
+          <a class="btn btn-white" onclick="showPage('contact')">Talk to an Expert</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <img src="images/Taxoneacc CONSULTING.svg" alt="TaxOneAcc Consulting" />
+              <p>Your trusted partner in smart financial and tax solutions for individuals and businesses across South Africa.</p>
+              <div class="footer-social-row">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer-col">
+              <h4>Services</h4>
+              <ul>
+                <li><span onclick="showServicePage('Corporate')">Corporate &amp; Individual Tax</span></li>
+                <li><span onclick="showServicePage('VAT')">Value Added Tax</span></li>
+                <li><span onclick="showServicePage('Employees')">Employees Tax</span></li>
+                <li><span onclick="showServicePage('Consulting')">Tax Consulting</span></li>
+                <li><span onclick="showServicePage('Dispute')">Tax Dispute &amp; Resolution</span></li>
+                <li><span onclick="showServicePage('CIPC')">CIPC Compliance</span></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a onclick="showPage('home')">Home</a></li>
+                <li><a onclick="showPage('about')">About Us</a></li>
+                <li><a onclick="showPage('testimonials')">Testimonials</a></li>
+                <li><a onclick="showPage('contact')">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact</h4>
+              <ul>
+                <li><span><i class="fas fa-phone" style="color:var(--blue);margin-right:8px;"></i>+27 XX XXX XXXX</span></li>
+                <li><span><i class="fas fa-envelope" style="color:var(--blue);margin-right:8px;"></i>info@taxoneacc.co.za</span></li>
+                <li><span><i class="fas fa-map-marker-alt" style="color:var(--blue);margin-right:8px;"></i>Johannesburg, GP</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-bottom">
+          <p>© 2026 TaxOneAcc Consulting. All rights reserved.</p>
+          <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</div><!-- /page-services -->
+
+<!-- ======================== TESTIMONIALS PAGE ======================== -->
+<div id="page-testimonials" class="page">
+  <div class="testimonials-page">
+
+    <section class="page-hero" style="padding:72px 0 60px;">
+      <div class="container">
+        <div class="section-eyebrow">Client Stories</div>
+        <h1 class="section-title light">What Our Clients<br />Say About Us</h1>
+        <p style="color:rgba(255,255,255,0.6);margin-top:16px;font-size:0.97rem;max-width:480px;">Real results from real clients. Here's how TaxOneAcc Consulting has made a difference.</p>
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="testimonials-grid">
+
+          <div class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">TaxOneAcc completely transformed how we handle our tax obligations. Our filings are always on time, and we've never had an issue with SARS. Absolutely professional service.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar"><i class="fas fa-user"></i></div>
+              <div>
+                <div class="author-name">Sipho M.</div>
+                <div class="author-role">Director, SME Manufacturing</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-1">
+            <div class="stars">★★★★★</div>
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">As a freelancer, I was always anxious about tax season. TaxOneAcc made the whole process effortless and actually saved me money I didn't know I was leaving on the table.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar"><i class="fas fa-user"></i></div>
+              <div>
+                <div class="author-name">Aisha K.</div>
+                <div class="author-role">Independent Consultant</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-2">
+            <div class="stars">★★★★★</div>
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">Their VAT and PAYE management is flawless. We've been with them for over two years and haven't had a single compliance issue. That peace of mind is priceless.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar"><i class="fas fa-user"></i></div>
+              <div>
+                <div class="author-name">Thabo N.</div>
+                <div class="author-role">Founder, Retail Business</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-1">
+            <div class="stars">★★★★★</div>
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">When we had a SARS dispute, TaxOneAcc handled everything from start to finish. Calm, professional, and they resolved it faster than we expected. Highly recommended.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar"><i class="fas fa-user"></i></div>
+              <div>
+                <div class="author-name">Lerato D.</div>
+                <div class="author-role">CEO, Professional Services</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-2">
+            <div class="stars">★★★★★</div>
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">The bookkeeping and advisory team gave us visibility into our finances we never had before. We made better business decisions this year because of their guidance.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar"><i class="fas fa-user"></i></div>
+              <div>
+                <div class="author-name">Zanele P.</div>
+                <div class="author-role">Owner, Catering Business</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-3">
+            <div class="stars">★★★★★</div>
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">Registering our company with CIPC and getting everything set up properly was seamless. TaxOneAcc handled everything and kept us informed at every step.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar"><i class="fas fa-user"></i></div>
+              <div>
+                <div class="author-name">Kabelo R.</div>
+                <div class="author-role">Co-Founder, Tech Startup</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <div class="trust-inner">
+          <p>Trusted by businesses across South Africa</p>
+          <div class="trust-logos">
+            <span class="trust-logo-item">SARS Compliant</span>
+            <span class="trust-logo-item">CIPC Registered</span>
+            <span class="trust-logo-item">VAT Specialists</span>
+            <span class="trust-logo-item">PAYE Experts</span>
+            <span class="trust-logo-item">IRP5 Accredited</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Band -->
+    <div class="cta-band">
+      <div class="container">
+        <div class="cta-band-inner">
+          <div>
+            <h2>Join hundreds of satisfied clients.</h2>
+            <p>Take the first step toward stress-free financial management.</p>
+          </div>
+          <a class="btn btn-white" onclick="showPage('contact')">Get Your Free Consultation</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <img src="images/Taxoneacc CONSULTING.svg" alt="TaxOneAcc Consulting" />
+              <p>Your trusted partner in smart financial and tax solutions for individuals and businesses across South Africa.</p>
+              <div class="footer-social-row">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer-col">
+              <h4>Services</h4>
+              <ul>
+                <li><span onclick="showServicePage('Corporate')">Corporate &amp; Individual Tax</span></li>
+                <li><span onclick="showServicePage('VAT')">Value Added Tax</span></li>
+                <li><span onclick="showServicePage('Employees')">Employees Tax</span></li>
+                <li><span onclick="showServicePage('Consulting')">Tax Consulting</span></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a onclick="showPage('home')">Home</a></li>
+                <li><a onclick="showPage('about')">About Us</a></li>
+                <li><a onclick="showPage('testimonials')">Testimonials</a></li>
+                <li><a onclick="showPage('contact')">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact</h4>
+              <ul>
+                <li><span><i class="fas fa-phone" style="color:var(--blue);margin-right:8px;"></i>+27 XX XXX XXXX</span></li>
+                <li><span><i class="fas fa-envelope" style="color:var(--blue);margin-right:8px;"></i>info@taxoneacc.co.za</span></li>
+                <li><span><i class="fas fa-map-marker-alt" style="color:var(--blue);margin-right:8px;"></i>Johannesburg, GP</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-bottom">
+          <p>© 2026 TaxOneAcc Consulting. All rights reserved.</p>
+          <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</div><!-- /page-testimonials -->
+
+<!-- ======================== CONTACT PAGE ======================== -->
+<div id="page-contact" class="page">
+  <div class="contact-page">
+
+    <section class="page-hero" style="padding:72px 0 60px;">
+      <div class="container">
+        <div class="section-eyebrow">Get In Touch</div>
+        <h1 class="section-title light">Let's Start Your<br />Financial Journey</h1>
+        <p style="color:rgba(255,255,255,0.6);margin-top:16px;font-size:0.97rem;max-width:480px;">Book a free, no-obligation consultation. We'll assess your needs and show you exactly how we can help.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Info -->
+          <div class="contact-info">
+            <div class="section-eyebrow">Reach Out</div>
+            <h2>We'd Love to<br />Hear From You</h2>
+            <p>Whether you have a question about our services, need an urgent quote, or simply want to understand your options — we're here to help. No pressure, no jargon.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                <div class="contact-item-text">
+                  <strong>Phone</strong>
+                  <span>+27 XX XXX XXXX</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <div class="contact-item-text">
+                  <strong>Email</strong>
+                  <span>info@taxoneacc.co.za</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact-item-text">
+                  <strong>Location</strong>
+                  <span>Johannesburg, Gauteng</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                <div class="contact-item-text">
+                  <strong>Business Hours</strong>
+                  <span>Mon–Fri: 08:00 – 17:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="contact-form-wrap reveal">
+            <h3>Request a Quote</h3>
+            <p>Fill in your details and we'll get back to you within 24 hours.</p>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="c-name">First Name</label>
+                <input type="text" id="c-name" placeholder="Your first name" required />
+              </div>
+              <div class="form-group">
+                <label for="c-surname">Last Name</label>
+                <input type="text" id="c-surname" placeholder="Your last name" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="c-email">Email Address</label>
+                <input type="email" id="c-email" placeholder="your@email.com" required />
+              </div>
+              <div class="form-group">
+                <label for="c-phone">Phone Number</label>
+                <input type="tel" id="c-phone" placeholder="+27 XX XXX XXXX" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="c-service">Service Required</label>
+              <select id="c-service">
+                <option value="" disabled selected>Select a service</option>
+                <option value="Corporate">Corporate and Individual Tax</option>
+                <option value="VAT">Value Added Tax</option>
+                <option value="Employees">Employees Tax (PAYE, UIF &amp; SDL)</option>
+                <option value="Consulting">Tax Consulting &amp; Compliance</option>
+                <option value="Dispute">Tax Dispute &amp; Resolution</option>
+                <option value="CIPC">Secretariat &amp; CIPC Compliance</option>
+                <option value="Payroll">Payroll &amp; Payslips</option>
+                <option value="Advisory">Accounting &amp; Advisory</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="c-message">Message</label>
+              <textarea id="c-message" placeholder="Tell us a bit about your situation or what you need help with..."></textarea>
+            </div>
+
+            <button class="btn form-submit" id="contactSubmitBtn" onclick="handleContactSubmit()">Send Request</button>
+            <p class="form-note"><i class="fas fa-lock"></i>Your information is secure and never shared with third parties.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <img src="images/Taxoneacc CONSULTING.svg" alt="TaxOneAcc Consulting" />
+              <p>Your trusted partner in smart financial and tax solutions for individuals and businesses across South Africa.</p>
+              <div class="footer-social-row">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer-col">
+              <h4>Services</h4>
+              <ul>
+                <li><span onclick="showServicePage('Corporate')">Corporate &amp; Individual Tax</span></li>
+                <li><span onclick="showServicePage('VAT')">Value Added Tax</span></li>
+                <li><span onclick="showServicePage('Employees')">Employees Tax</span></li>
+                <li><span onclick="showServicePage('Consulting')">Tax Consulting</span></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a onclick="showPage('home')">Home</a></li>
+                <li><a onclick="showPage('about')">About Us</a></li>
+                <li><a onclick="showPage('testimonials')">Testimonials</a></li>
+                <li><a onclick="showPage('contact')">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact</h4>
+              <ul>
+                <li><span><i class="fas fa-phone" style="color:var(--blue);margin-right:8px;"></i>+27 XX XXX XXXX</span></li>
+                <li><span><i class="fas fa-envelope" style="color:var(--blue);margin-right:8px;"></i>info@taxoneacc.co.za</span></li>
+                <li><span><i class="fas fa-map-marker-alt" style="color:var(--blue);margin-right:8px;"></i>Johannesburg, GP</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-bottom">
+          <p>© 2026 TaxOneAcc Consulting. All rights reserved.</p>
+          <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</div><!-- /page-contact -->
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
