@@ -285,7 +285,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 10% 140px 8%;
+  padding: 100px 10% 140px 8%;
   max-width: 780px;
 }
 
@@ -311,7 +311,7 @@
 
     .hero h1 {
       font-family: 'Playfair Display', serif;
-      font-size: clamp(2.4rem, 5.5vw, 4.2rem);
+      font-size: clamp(2rem, 4vw, 3.2rem);
       font-weight: 700;
       line-height: 1.12;
       color: #fff;
@@ -341,11 +341,12 @@
       flex-wrap: wrap;
       opacity: 0;
       animation: fadeUp 0.8s 0.9s forwards;
+      margin-bottom: 20px;
     }
 
     .hero-trust {
       position: absolute;
-      bottom: 48px;
+      bottom: 80px;
       left: 8%;
       z-index: 3;
       display: flex;
